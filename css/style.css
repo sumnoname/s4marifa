@@ -35,11 +35,22 @@ body {
     box-shadow: 5px 10px rgb(128, 128, 128);
 }
 
+#content-article {
+    background-color: rgb(255, 255, 255);
+    grid-column: span 2;
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+    padding: 10%;
+    box-shadow: 5px 10px rgb(128, 128, 128);
+}
+
 #footer {
     background-color: rgb(255, 255, 255);
     grid-column: span 2;
     border: 1px solid;
     padding: 10px;
+    text-align: center;
     box-shadow: 5px 10px rgb(128, 128, 128);
     margin-left: 25%;
     margin-right: 25%;
