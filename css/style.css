@@ -29,8 +29,8 @@ body {
     background-color: rgb(255, 255, 255);
     grid-column: span 2;
     border: 1px solid;
-    text-align: center;
     padding: 10%;
+    text-align: center;
     box-shadow: 5px 10px rgb(128, 128, 128);
 }
 
@@ -38,9 +38,8 @@ body {
     background-color: rgb(255, 255, 255);
     grid-column: span 2;
     border: 1px solid;
-    padding: 10px;
-    text-align: left;
     padding: 10%;
+    text-align: left;
     box-shadow: 5px 10px rgb(128, 128, 128);
 }
 
