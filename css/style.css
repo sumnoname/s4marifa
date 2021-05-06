@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(127, 255, 212 );
+    background-color: rgb(127, 255, 212);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -64,3 +64,12 @@ body {
     grid-gap: 20px 20px;
     min-height: 100vh;
 }
+
+ul {
+    list-style-type: circle;
+    padding: 10px;
+}
+
+ul li {
+    margin: 20px;
+  }
