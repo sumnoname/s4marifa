@@ -7,11 +7,29 @@ body {
     background-color: rgb(255, 255, 255);
     grid-column: span 2;
     border: 1px solid;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     box-shadow: 5px 10px rgb(128, 128, 128);
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (max-width: 992px) {
+    #header {
+        background-color: rgb(255, 255, 255);
+        grid-column: span 2;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px rgb(128, 128, 128);
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
 }
 
 #navigation {
@@ -23,6 +41,21 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-around;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 992px) {
+    #navigation {
+        background-color: rgb(255, 255, 255);
+        grid-column: span 2;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px rgb(128, 128, 128);
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 #content {
@@ -41,6 +74,20 @@ body {
     padding: 10%;
     text-align: left;
     box-shadow: 5px 10px rgb(128, 128, 128);
+    margin-right: 300px;
+    margin-left: 300px;
+    min-height: max-content;
+}
+
+@media screen and (max-width: 992px) {
+    #content-article {
+        background-color: rgb(255, 255, 255);
+        grid-column: span 2;
+        border: 1px solid;
+        padding: 10%;
+        text-align: left;
+        box-shadow: 5px 10px rgb(128, 128, 128);
+    }
 }
 
 #footer {
@@ -54,6 +101,7 @@ body {
     margin-right: 25%;
     margin-bottom: 10px;
 }
+
 #container {
     font-size: 20px;
     min-height: 300px;
@@ -61,8 +109,20 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px 1fr 10%;
-    grid-gap: 20px 20px;
-    min-height: 100vh;
+    gap: 80px 80px;
+}
+
+@media screen and (max-width: 992px) {
+    #container {
+        font-size: 20px;
+        min-height: 300px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 50px 1fr 10%;
+        grid-gap: 20px 20px;
+        min-height: 100vh;
+    }
 }
 
 ul {
